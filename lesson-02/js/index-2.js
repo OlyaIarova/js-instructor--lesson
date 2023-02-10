@@ -97,7 +97,7 @@
 //  // Пиши код нижче за цей рядок
 //  if (!link.endsWith('/')){
 //     console.log(link);
-// } else if(link + `/`){
+// } else if(link += `/`){
 //     console.log(link);
 // }
 // // Пиши код вище за цей рядок
@@ -113,6 +113,7 @@
 // `if...else`.
 
 // ```js
+
 // let link = 'https://somesite.com/about';
 // // Пиши код нижче за цей рядок
 
@@ -120,12 +121,12 @@
 //     console.log(link);
 //  } else if (!link.endsWith('/')){
 //     console.log(link);
-// }else if(link + `/`){
+// }else if(link += `/`){
 //     console.log(link);
-// }
-
+// 
 // // Пиши код вище за цей рядок
 // console.log(link);
+
 // ```
 
 // ## Example 7 - Форматування посилання (тернарний оператор)
